@@ -257,11 +257,11 @@ function Footer() {
           })
         }), /*#__PURE__*/jsx_runtime_.jsx("div", {
           children: /*#__PURE__*/(0,jsx_runtime_.jsxs)("p", {
-            children: ["Developed by", /*#__PURE__*/jsx_runtime_.jsx("div", {
+            children: ["Originally developed by", /*#__PURE__*/jsx_runtime_.jsx("div", {
               className: "inline-block transform hover:scale-110 hover:-rotate-3 transition duration-300 hover:cursor-pointer select-none",
-              children: /*#__PURE__*/jsx_runtime_.jsx("p", {
+              children: /*#__PURE__*/(0,jsx_runtime_.jsxs)("p", {
                 className: "hover:bg-red-500 rounded-md px-2 py-1  hover:text-gray-50",
-                children: "Sujeet Gund"
+                children: ["Sujeet Gund", /*#__PURE__*/jsx_runtime_.jsx("br", {})]
               })
             })]
           })
@@ -343,7 +343,7 @@ function ContainerBlock(_ref) {
   const router = (0,router_.useRouter)();
 
   const meta = _objectSpread({
-    title: "Sujeet Gund - Student, Developer, Writer & Designer",
+    title: "Kshitij Sharma - Student, Developer, Writer & Designer",
     description: `I barely talk, code more! Get in touch with me to know more.`,
     image: "/avatar.png",
     type: "website"
@@ -361,16 +361,16 @@ function ContainerBlock(_ref) {
         name: "description"
       }), /*#__PURE__*/jsx_runtime_.jsx("meta", {
         property: "og:url",
-        content: `https://sujeetgund.vercel.app${router.asPath}`
+        content: `https://kshitij-portfolio-i840vzqi3-kshtjsharma68.vercel.app${router.asPath}`
       }), /*#__PURE__*/jsx_runtime_.jsx("link", {
         rel: "canonical",
-        href: `https://sujeetgund.vercel.app${router.asPath}`
+        href: `https://kshitij-portfolio-i840vzqi3-kshtjsharma68.vercel.app${router.asPath}`
       }), /*#__PURE__*/jsx_runtime_.jsx("meta", {
         property: "og:type",
         content: meta.type
       }), /*#__PURE__*/jsx_runtime_.jsx("meta", {
         property: "og:site_name",
-        content: "Sujeet Gund"
+        content: "Kshitij Sharma"
       }), /*#__PURE__*/jsx_runtime_.jsx("meta", {
         property: "og:description",
         content: meta.description
@@ -385,7 +385,7 @@ function ContainerBlock(_ref) {
         content: "summary_large_image"
       }), /*#__PURE__*/jsx_runtime_.jsx("meta", {
         name: "twitter:site",
-        content: "@Sujeet_Gund"
+        content: "@kshtjsharma68"
       }), /*#__PURE__*/jsx_runtime_.jsx("meta", {
         name: "twitter:title",
         content: meta.title
@@ -415,14 +415,14 @@ function ContainerBlock(_ref) {
 
 "use strict";
 const userData = {
-  githubUsername: "sujeetgund",
-  name: "Sujeet Gund",
+  githubUsername: "kshitijzasya",
+  name: "Kshitij Sharma",
   designation: "Full Stack Developer",
-  avatarUrl: "/sujeet.jpg",
+  avatarUrl: "/update_profile.jpg",
   // avatarUrl: "https://pbs.twimg.com/profile_images/1494703351149301760/GeuTvrEd_400x400.jpg",
-  email: "sujeetgund@gmail.com",
-  phone: "+91 7620420850",
-  address: "Barshi, Maharashtra, India.",
+  email: "kshtjsharma68@gmail.com",
+  phone: "+91 9418009411",
+  address: "Hamirpur Himachal Pradesh India.",
   projects: [{
     title: "Medium Clone",
     link: "https://medium-sanity-woad.vercel.app/",
