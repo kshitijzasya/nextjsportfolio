@@ -1,12 +1,12 @@
 const userData = {
-  githubUsername: "sujeetgund",
-  name: "Sujeet Gund",
+  githubUsername: "kshitijzasya",
+  name: "Kshitij Sharma",
   designation: "Full Stack Developer",
-  avatarUrl: "/sujeet.jpg",
+  avatarUrl: "/update_profile.jpg",
   // avatarUrl: "https://pbs.twimg.com/profile_images/1494703351149301760/GeuTvrEd_400x400.jpg",
-  email: "sujeetgund@gmail.com",
-  phone: "+91 7620420850",
-  address: "Barshi, Maharashtra, India.",
+  email: "kshtjsharma68@gmail.com",
+  phone: "+91 9418009411",
+  address: "Hamirpur Himachal Pradesh India.",
   projects: [
     {
       title: "Medium Clone",
