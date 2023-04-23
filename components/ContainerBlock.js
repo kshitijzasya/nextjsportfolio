@@ -8,7 +8,7 @@ export default function ContainerBlock({ children, ...customMeta }) {
   const router = useRouter();
 
   const meta = {
-    title: "Sujeet Gund - Student, Developer, Writer & Designer",
+    title: "Kshitij Sharma - Student, Developer, Writer & Designer",
     description: `I barely talk, code more! Get in touch with me to know more.`,
     image: "/avatar.png",
     type: "website",
@@ -22,19 +22,19 @@ export default function ContainerBlock({ children, ...customMeta }) {
         <meta content={meta.description} name="description" />
         <meta
           property="og:url"
-          content={`https://sujeetgund.vercel.app${router.asPath}`}
+          content={`https://kshitij-portfolio-i840vzqi3-kshtjsharma68.vercel.app${router.asPath}`}
         />
         <link
           rel="canonical"
-          href={`https://sujeetgund.vercel.app${router.asPath}`}
+          href={`https://kshitij-portfolio-i840vzqi3-kshtjsharma68.vercel.app${router.asPath}`}
         />
         <meta property="og:type" content={meta.type} />
-        <meta property="og:site_name" content="Sujeet Gund" />
+        <meta property="og:site_name" content="Kshitij Sharma" />
         <meta property="og:description" content={meta.description} />
         <meta property="og:title" content={meta.title} />
         <meta property="og:image" content={meta.image} />
         <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:site" content="@Sujeet_Gund" />
+        <meta name="twitter:site" content="@kshtjsharma68" />
         <meta name="twitter:title" content={meta.title} />
         <meta name="twitter:description" content={meta.description} />
         <meta name="twitter:image" content={meta.image} />
