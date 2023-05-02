@@ -493,11 +493,11 @@ const userData = {
   }],
   resumeUrl: "#",
   socialLinks: {
-    instagram: "https://instagram.com/sujeet.gund",
-    twitter: "https://twitter.com/Sujeet_Gund",
-    linkedin: "https://in.linkedin.com/in/sujeetgund",
-    github: "https://github.com/sujeetgund",
-    facebook: "https://facebook.com/sujeet.gund.98"
+    instagram: "https://www.instagram.com/_kshitij_sharma68",
+    twitter: "https://twitter.com/kshtjsharma68",
+    linkedin: "https://www.linkedin.com/in/kshitij-sharma-a5ba6431/",
+    github: "https://github.com/kshitijzasya" // facebook: "https://facebook.com/sujeet.gund.98",
+
   }
 }; // TODO: nice work
 

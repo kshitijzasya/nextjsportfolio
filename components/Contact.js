@@ -76,7 +76,7 @@ export default function Contact() {
 
             {/* social media */}
             <div className="social-icons flex flex-row space-x-8">
-              <a
+              {/* <a
                 href={userData.socialLinks.facebook}
                 className="h-10 w-10 rounded-full hover:bg-blue-500 flex items-center justify-center cursor-pointer"
               >
@@ -93,7 +93,7 @@ export default function Contact() {
                     fill="currentColor"
                   />
                 </svg>
-              </a>
+              </a> */}
               <a
                 href={userData.socialLinks.twitter}
                 className="h-10 w-10 rounded-full hover:bg-blue-500 flex items-center justify-center cursor-pointer"
@@ -192,7 +192,7 @@ export default function Contact() {
             ></textarea>
             <input type="hidden" name="_subject" value="Message from Website!"/>
             <input type="hidden" name="_captcha" value="false"/>
-            <input type="hidden" name="_next" value={`https://sujeetgund.vercel.app/contact`} />
+            <input type="hidden" name="_next" value={`https://kshitij-portfolio-alpha.vercel.app/contact`} />
             <button
               type="submit"
               className="bg-blue-500 rounded-md w-1/2 mx-4 mt-8 py-2 text-gray-50 text-xs font-bold"

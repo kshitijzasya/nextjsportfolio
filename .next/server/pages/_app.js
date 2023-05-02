@@ -64,7 +64,7 @@ function MyApp({
     children: [/*#__PURE__*/jsx_runtime_.jsx((head_default()), {
       children: /*#__PURE__*/jsx_runtime_.jsx("link", {
         rel: "shortcut icon",
-        href: "/favicon.jpg",
+        href: "/favicon.png",
         type: "image/x-icon"
       })
     }), /*#__PURE__*/jsx_runtime_.jsx(Component, _objectSpread({}, pageProps))]
