@@ -11,7 +11,7 @@ export default function Home({ repositories }) {
   return (
     <ContainerBlock
       title="Kshitij Sharma- Developer, Writer, Creator"
-      description="I've been developing websites for 5 years straight. Get in touch with me to know more."
+      description="I've been developing websites for 6 years straight. Get in touch with me to know more."
     >
       <Hero />
       <FavouriteProjects />

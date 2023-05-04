@@ -255,16 +255,6 @@ function Footer() {
           children: /*#__PURE__*/(0,jsx_runtime_.jsxs)("p", {
             children: ["\xA9 ", new Date().getFullYear(), "  All Rights Reserved."]
           })
-        }), /*#__PURE__*/jsx_runtime_.jsx("div", {
-          children: /*#__PURE__*/(0,jsx_runtime_.jsxs)("p", {
-            children: ["Originally developed by", /*#__PURE__*/jsx_runtime_.jsx("div", {
-              className: "inline-block transform hover:scale-110 hover:-rotate-3 transition duration-300 hover:cursor-pointer select-none",
-              children: /*#__PURE__*/(0,jsx_runtime_.jsxs)("p", {
-                className: "hover:bg-red-500 rounded-md px-2 py-1  hover:text-gray-50",
-                children: ["Sujeet Gund", /*#__PURE__*/jsx_runtime_.jsx("br", {})]
-              })
-            })]
-          })
         }), /*#__PURE__*/(0,jsx_runtime_.jsxs)("div", {
           className: "space-x-4 flex flex-row items-center",
           children: [/*#__PURE__*/jsx_runtime_.jsx("a", {
@@ -421,7 +411,7 @@ const userData = {
   avatarUrl: "/update_profile.jpg",
   // avatarUrl: "https://pbs.twimg.com/profile_images/1494703351149301760/GeuTvrEd_400x400.jpg",
   email: "kshtjsharma68@gmail.com",
-  phone: "+91 9418009411",
+  phone: "+919418009411",
   address: "Hamirpur Himachal Pradesh India.",
   projects: [{
     title: "Medium Clone",
@@ -467,29 +457,29 @@ const userData = {
     currentProjectUrl: "https://sujeetgund.github.io/cinemos-docs/"
   },
   experience: [{
-    title: "Founder and Developer",
-    company: "At My Startup",
-    year: "2029",
-    companyLink: "#",
-    desc: "Moving on, to live my own life!"
+    title: "Founder, Developer and Manager",
+    company: "Initiative",
+    year: "2016",
+    companyLink: "#https://www.zasyasolutions.com/",
+    desc: "Moving on, to live my own life! Will make wonders."
   }, {
     title: "Internship",
-    company: "Intel Corporation",
-    year: "2027",
-    companyLink: "https://intel.com",
-    desc: "Developed pothole detection system with OpenCV and computer vision, detects potholes on roads and informs the driver."
+    company: "Holisol",
+    year: "2015",
+    companyLink: "#",
+    desc: "Developed basic blocks of programming and created some projects to make fundamentals string. Loved working there."
   }, {
     title: "Graduation",
-    company: "IIT, Madras.",
-    year: "2027",
-    companyLink: "https://www.iitm.ac.in/",
-    desc: "Major in Computer Science and Engineering with a CGPA of 9.2, Nobody asks this but it's okay."
+    company: "Rayat And Bahra",
+    year: "2012",
+    companyLink: "#",
+    desc: "Major in Computers and Electronics Communication with good grades and fire, Nobody asks this but it's okay."
   }, {
     title: "High School",
-    company: "Jawahar Navodaya Vidyalaya, Solapur.",
-    year: "2021",
-    companyLink: "https://www.navodaya.gov.in/nvs/nvs-school/Solapur/en/home/",
-    desc: "Luckily, Covid Batch! No board exams so got 95.8%"
+    company: "Him Academy.",
+    year: "2008",
+    companyLink: "#",
+    desc: "Luckily, hard study time"
   }],
   resumeUrl: "#",
   socialLinks: {

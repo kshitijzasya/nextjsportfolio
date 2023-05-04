@@ -354,7 +354,7 @@ function Home({
 }) {
   return /*#__PURE__*/(0,jsx_runtime_.jsxs)(ContainerBlock/* default */.Z, {
     title: "Kshitij Sharma- Developer, Writer, Creator",
-    description: "I've been developing websites for 5 years straight. Get in touch with me to know more.",
+    description: "I've been developing websites for 6 years straight. Get in touch with me to know more.",
     children: [/*#__PURE__*/jsx_runtime_.jsx(Hero, {}), /*#__PURE__*/jsx_runtime_.jsx(FavouriteProjects, {}), /*#__PURE__*/jsx_runtime_.jsx(LatestCode, {
       repositories: repositories
     })]

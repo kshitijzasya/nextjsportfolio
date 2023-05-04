@@ -20,7 +20,7 @@ export default function AboutMe() {
               className="bg-red-500 rounded-md px-2 py-1 text-white"
               href={userData.about.currentProjectUrl}
             >
-              {userData.about.currentProject} ✈️
+              {userData.about.currentProject} ✈️ 
             </a>
           </p>
         </div>
@@ -131,8 +131,14 @@ export default function AboutMe() {
               </div>
             </div>
 
-            <a href="https://www.buymeacoffee.com/sujeetgund" target="_blank" rel="noreferrer"><img className="p-5" src="/buy-me-a-coffee.png" alt="Buy Me A Coffee" height="48" width="180" /></a>
-          </div>
+            <a href="https://www.buymeacoffee.com/kshtjsharma" target="_blank" rel="noreferrer"><img className="p-5" src="/buy-me-a-coffee.png" alt="Buy Me A Coffee" height="48" width="180" /></a>
+            <img
+              src="payment/bmc_qr.png"
+              height="80"
+              width="80"
+            ></img>
+            <script data-name="BMC-Widget" data-cfasync="false" src="https://cdnjs.buymeacoffee.com/1.0.0/widget.prod.min.js" data-id="kshtjsharma" data-description="Support me on Buy me a coffee!" data-message="Thank you for visiting. May god bless you." data-color="#FF813F" data-position="Right" data-x_margin="18" data-y_margin="18"></script>
+            </div>
           {/* Text area */}
           <div className="col-span-1 md:col-span-2">
             {userData.about.description?.map((desc, idx) => (
@@ -192,8 +198,24 @@ export default function AboutMe() {
                 src="tech stack/sanity-logo.png"
                 className="h-20 w-20 mx-4 my-4"
               />
-              <img
+              {/* <img
                 src="tech stack/python-logo.png"
+                className="h-20 w-20 mx-4 my-4"
+              /> */}
+              <img
+                src="tech stack/php.png"
+                className="h-20 w-20 mx-4 my-4"
+              />
+              <img
+                src="tech stack/laravel.png"
+                className="h-20 w-20 mx-4 my-4"
+              />
+              <img
+                src="tech stack/node.png"
+                className="h-20 w-20 mx-4 my-4"
+              />
+              <img
+                src="tech stack/vue.png"
                 className="h-20 w-20 mx-4 my-4"
               />
             </div>

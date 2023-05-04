@@ -10,20 +10,6 @@ export default function Footer() {
           <div>
             <p>&copy; {new Date().getFullYear()}  All Rights Reserved.</p>
           </div>
-          <div>
-            {/* Support me by keeping this in the footer, please. :) */}
-            <p>
-              Originally developed by
-              <div className="inline-block transform hover:scale-110 hover:-rotate-3 transition duration-300 hover:cursor-pointer select-none">
-                <p
-                  className="hover:bg-red-500 rounded-md px-2 py-1  hover:text-gray-50"
-                >
-                  Sujeet Gund<br>
-                  </br>
-                </p>
-              </div>
-            </p>
-          </div>
           <div className="space-x-4 flex flex-row items-center">
             <a
               href={userData.socialLinks.instagram}
